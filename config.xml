@@ -4,11 +4,11 @@
 	id          = "com.phonegap.example"
 	version     = "0.0.1">
 
-	<name>test for IPA</name>
+	<name>Melaglow</name>
 	
-	<description>iPad App for SHC</description>
+	<description>Melaglow aplication</description>
 	
-	<author href="http://google.com" email="manoj.murae@gmail.com">Manoj Kumar</author>
+	<author href="http://google.com" email="manoj.murae@gmail.com">Chris Converse</author>
 	
 	<preference name="webviewbounce" value="false" />
 	<preference name="prerendered-icon" value="true" />

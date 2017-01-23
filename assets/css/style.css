@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	}
+
+	
+h3{
+	font-family:Arial, Verdana, sans-serif;
+	color:#000000;
+	font-size:14px;
+	text-align:center;
+	}
+
+#slide1{
+		width:1024px;
+		height:768px;
+		position:absolute;
+		overflow:hidden;
+	}
+.slideHolder{width:1024px;
+height:768px;
+position:absolute;
+top:0px;
+left:0px;
+}
+#bg{
+	background:url(../images/bg.png) no-repeat;
+	width:1024px;
+	height:768px;
+	position:absolute;
+	left:0px;
+	top:0px;	
+	z-index:1000;
+	}
+#redBG{
+	width:1024px;
+	height:768px;
+	background:url(../images/redBG.jpg) no-repeat;
+	background-size:contain;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1002;
+}	
+#leaf1{
+		background:url(../images/leaf1.svg) no-repeat;
+		width:129px;
+		height:107px;
+		position:absolute;
+		left:410px;
+		top	:335px;	
+		z-index:1003;
+		background-size:contain;
+	}
+	#leafOut{
+		background:url(../images/leaf1.svg) no-repeat;
+		width:129px;
+		height:107px;
+		position:absolute;
+		left:410px;
+		top	:335px;	
+		z-index:10 !important;
+		background-size:contain;
+	}
+	
+		
+#model{
+	background:url(../images/model.jpg) no-repeat;
+	width:1024px;
+	height:768px;
+	position:absolute;
+	top:0px;
+	left:0px;	
+	}	
+#darkSpot{
+		background:url(../images/darkspot.png) no-repeat;
+		width:83px;
+		height:60px;
+		position:absolute;
+		left:600px;
+		top:418px;
+	}	
+	
+	#lightSpot{
+		background:url(../images/lightspot.png) no-repeat;
+		width:83px;
+		height:60px;
+		position:absolute;
+		left:600px;
+		top:418px;
+		
+	}	
+	
+	#leaf{
+		background:url(../images/leaf.png) no-repeat;
+		width:129px;
+		height:107px;
+		position:absolute;
+		left:822px;
+		top	:365px;
+	}
+	.next{
+			width:129px;
+			height:107px;
+			position:absolute;
+			left:822px;
+			top:365px;
+			/*display:none;*/
+			cursor:pointer;
+			z-index:1001;
+	}
+.pre{display:none}
+	
+.displayPre{
+	display:block;
+	width:129px;
+	height:107px;
+	position:absolute;
+	left:40px;
+	top:365px;
+	cursor:pointer;
+	z-index:1001;
+}
+
+.txt1 {
+    position: absolute;
+    top: 540px;
+    left: 60px;
+	opacity:1;
+}
+.txt2 {
+    position: absolute;
+    top: 540px;
+    left: 820px;
+	opacity:0;
+}
+.txt3 {
+    position: absolute;
+    top: 540px;
+    left: 60px;
+	opacity:0;
+}
+.txt4 {
+    position: absolute;
+    top: 540px;
+    left: 820px;
+	opacity:0;
+}
+#nextSlide{    background: url(../images/next.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 360px;
+    right: 10px;
+    z-index: 1001;
+    cursor: pointer;
+}
+
+
+#preSlide{    background: url(../images/prev.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 360px;
+    left: 10px;
+    z-index: 1001;
+    cursor: pointer;
+}
+#nextSlide a{ display:block; height:50px; width:50px;}
