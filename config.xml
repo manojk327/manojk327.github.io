@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	id          = "com.phonegap.example"
+	version     = "0.0.1">
+
+	<name>test for IPA</name>
+	
+	<description>iPad App for SHC</description>
+	
+	<author href="http://google.com" email="manoj.murae@gmail.com">Manoj Kumar</author>
+	
+	<preference name="webviewbounce" value="false" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="ios-statusbarstyle" value="black-translucent" />
+	<preference name="fullscreen" value="true" />
+	
+	<icon src="icon.png" />
+	
+</widget>
